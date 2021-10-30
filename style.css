@@ -20,12 +20,13 @@ body {
 }
 
 .beath {
-    color: red;
-    font-size: 359px;
+    color: darkmagenta;
+    font-size: 100vh;
     animation: beat linear .5s infinite alternate;
 	transform-origin: center;
-    text-shadow:  0px 0px 15px black;
+    text-shadow:  0px 0px 15px darkmagenta;
     user-select: none;
+    opacity: 10%;
 
 }
 
@@ -35,7 +36,7 @@ body {
 }
 
 @keyframes beat {
-    to {transform: scale(1.4);}
+    to {transform: scale(1.2);}
     
 }
 
