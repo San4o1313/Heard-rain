@@ -25,6 +25,7 @@ body {
     animation: beat linear .5s infinite alternate;
 	transform-origin: center;
     text-shadow:  0px 0px 15px black;
+    user-select: none;
 
 }
 
