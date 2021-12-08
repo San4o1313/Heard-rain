@@ -40,3 +40,8 @@ body {
     
 }
 
+@media  (max-width: 765px) {
+    .beath {
+        font-size: 70vw;
+    }    
+}
